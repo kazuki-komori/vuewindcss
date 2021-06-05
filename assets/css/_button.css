@@ -1,0 +1,25 @@
+/*base*/
+.vw-btn {
+    display: block;
+    width: 8rem;
+    text-align: center;
+    font-weight: 700;
+    border: #42B983 0.1rem solid;
+    border-radius: 0.3rem;
+    color: #42B983;
+    background-color: white;
+    padding: 0.3rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.vw-btn:hover {
+    opacity: 75%;
+}
+
+.vw-btn__lightGreen {
+    border: white;
+    color: white;
+    background-color: #42B983;
+}
+
