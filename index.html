@@ -5,17 +5,24 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--    <link rel="stylesheet" href="https://kazuki-komori.github.io/vuewindcss/assets/css/main.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <base href="{{site.github.url}}">
     <title>vuewindcss docs</title>
 </head>
 <body>
-<div>
-    <p class="vw-text__4xl vw-font-bold">vuewindcss show case</p>
+<div class="vw-container">
+    <div class="sec-hero">
+        <p class="vw-text__4xl vw-font-bold">vuewindcss show case</p>
+        <img class="sec-hero__img" src="assets/image/icon.png" alt="icon">
+    </div>
+    <p class="vw-text__xl">vue っぽい UI を実装できる tailwind みたいなフレームワーク</p>
     <div>
-        <p class="vw-text__xl vw-font-semibold">ボタン</p>
-        <div class="vw-btn vw-btn__lightGreen">ボタン</div>
+        <p class="vw-text__xl vw-font-medium">- ボタン</p>
+        <div class="vw-btn">普通のボタン</div>
+        <div class="vw-btn vw-btn__lightGreen">緑のボタン</div>
     </div>
 </div>
 </body>

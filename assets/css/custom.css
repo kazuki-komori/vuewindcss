@@ -1,0 +1,19 @@
+.sec-hero {
+    display: flex;
+    align-items: center;
+}
+.sec-hero__img {
+    width: 500px;
+}
+
+@media (max-width: 1024px) {
+    .sec-hero {
+        display: block;
+    }
+    .sec-hero__img {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
