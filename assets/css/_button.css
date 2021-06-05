@@ -1,7 +1,7 @@
 /*base*/
 .vw-btn {
     display: block;
-    width: 8rem;
+    width: auto;
     text-align: center;
     border: #42B983 0.1rem solid;
     border-radius: 0.3rem;
@@ -17,13 +17,12 @@
 }
 
 .vw-btn__lightGreen {
-    border: white;
     color: white;
     background-color: #42B983;
 }
-.vw-btn__lightGreen {
-    border: white;
+.vw-btn__deepGreen {
+    border: #34495E 0.1rem solid;
     color: white;
-    background-color: #42B983;
+    background-color: #34495E;
 }
 
